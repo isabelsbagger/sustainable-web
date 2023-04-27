@@ -1,0 +1,53 @@
+/*Generel indstilling*/
+body {
+    background-color: #DEDCD6;
+    color: #4E4534;
+    line-height: 20px;
+}
+
+/*Sider*/
+ul {
+    list-style: none;
+}
+
+/*Header og menubar */
+header {
+    background-color: #DEDCD6;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
+
+.header .logo, .header .nav {
+    padding: 0 30px;
+}
+
+.header .nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+/*Menubar*/
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
