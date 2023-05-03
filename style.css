@@ -11,6 +11,10 @@ html {
     background-color: #DEDCD6;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 /* Header + navbar + hamburgermenu */
 header {
     background-color: #DEDCD6;
